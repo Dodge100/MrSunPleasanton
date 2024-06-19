@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-overlayscrollbars-initialize>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Mr. Sun Tea Pleasanton</title>
+    <link href="./static/favicon.png" rel="icon" type="image/png"/>
+    <link rel="icon" sizes="192x192" href="./static/192x192icon.png" type="image/png"/>
+    <link rel="icon" sizes="128x128" href="./static/128x128icon.png" type="image/png"/>
+    <link rel="apple-touch-icon" href="./static/apple-touch-icon.png" type="image/png"/>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Menu | Mr. Sun Pleasanton" />
+    <meta name="description" content="Handcrafted milk teas since 1999." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mr-sun-test.edjiang1234.repl.co" />
+    <meta property="og:title" content="Menu | Mr. Sun Pleasanton" />
+    <meta property="og:description" content="Handcrafted milk teas since 1999." />
+    <meta property="og:image" content="https://mr-sun-test.edjiang1234.repl.co/static/logo.jpg" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mr-sun-test.edjiang1234.repl.co" />
+    <meta property="twitter:title" content="Menu | Mr. Sun Pleasanton" />
+    <meta property="twitter:description" content="Handcrafted milk teas since 1999." />
+    <meta property="twitter:image" content="https://mr-sun-test.edjiang1234.repl.co/static/logo.jpg" />
+    <!-- Bootstrap for style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- bootstrap for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- overlayscrollbar for better scrollbar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.5/styles/overlayscrollbars.min.css" integrity="sha512-A6YOz/Tv4+wyzq0s1++GYun5D04Lx0vJKJ/qKLhyPNLQfywZGKsktJhObK3SjIURR0Gy/Lw22jXMEoXFY5NUDg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.5/browser/overlayscrollbars.browser.es6.min.js" integrity="sha512-C0rwyfLqz5Asrncj50D9aLJC5SY3QqtRhnkeTpPRLlos8R2seI3fY+z1Dq9zi3Pt/UDau/zXgDfNSMveZGhpjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body data-overlayscrollbars-initialize>
+    <div id="banner"><span style="margin:auto;">Website opening!</span><button type="button" class="btn-close btn-close-white" onclick="this.parentNode.style.display='none';document.querySelector('#navbar').style.top=0"></button></div>
+    <div id="navbar" class="navbar d-flex justify-content-center">
+      <a href="./"><img id="logo-main" src="./static/logo.png" draggable="false"></a><br>
+      <h1 id="heading-title"><a href="./">Mr. Sun Tea Pleasanton</a></h1>
+      <div id="nav-links">
+        <a href="./"><button type="button" class="btn btn-light" id="btn-home" value="active">Home</button></a>
+        <a href="./menu.html"><button type="button" class="btn btn-light" id="btn-menu">Menu</button></a>
+        <a href="./about.html"><button type="button" class="btn btn-light" id="btn-about">About</button></a>
+        <button type="button" class="btn btn-light" id="btn-order" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <h1>Our Menu</h1><br>
+      <div class="container-fluid d-flex justify-content-center flex-wrap">
+        <img style="width:100%; max-width: 1000px;" src="./static/menu1.jpeg" draggable="false">
+        <img style="width:100%; max-width: 1000px;" src="./static/menu2.jpeg" draggable="false">
+      </div>
+      <br><h1>Our Favorites</h1><br>
+      <span>(The splash text is really cool!)</span>
+      <div class="container-fluid" id="favorites">
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/panda.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Panda Milk Tea</h2>
+              <p class="card-text">
+                Made with only the finest pandas.
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/brown-sugar.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Brown Sugar Milk Tea</h2>
+              <p class="card-text">
+                Nothing more than a truly time-honored classic.
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/rainbow.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Rainbow Boba Milk Tea</h2>
+              <p class="card-text">
+                A taste of all the colors of the rainbow, now available with milk tea!
+              </p>
+            </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/mango-green.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Mango Green Tea</h2>
+              <p class="card-text">
+                Regular tea is just so boring, so we spiced it up.
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/heineken.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Heineken Green Tea</h2>
+              <p class="card-text">
+                Made with non-alcoholic Heineken® Beer!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/peach.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Peach Jasmine Green Tea</h2>
+              <p class="card-text">
+                Double tea trouble with a fruity twist!
+              </p>
+            </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/3bros.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Three Brothers Milk Tea</h2>
+              <p class="card-text">
+                Like the three sisters salad but in our own fashion.
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/black-lemon.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Black Tea Lemonade</h2>
+              <p class="card-text">
+                When life gives you lemons, make lemonade!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/grapefruit.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Grapefruit Mojito Green Tea</h2>
+              <p class="card-text">
+                The combinations just get crazier and crazier. Also alcohol-free!
+              </p>
+            </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/mango.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Mango Milk Tea</h2>
+              <p class="card-text">
+                We're obsessed with mango. Get used to it. Now in milk tea!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/pineapple.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Pineapple and Basil Seeds Green Tea </h2>
+              <p class="card-text">
+                Whoever thought pineapple and basil seeds would be so good together?!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/passionfruit.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Passionfruit Green Tea</h2>
+              <p class="card-text">
+                Warning: contains passionate fruits!
+              </p>
+            </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/qq.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">QQ Milk Tea</h2>
+              <p class="card-text">
+                Don't know where they came up with that name, but it sure is good!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/strawberry.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Strawberry Milk Tea</h2>
+              <p class="card-text">
+                Delicious, pinkish, sensation!
+              </p>
+            </div>
+        </div>
+        <div class="card favorites-card">
+          <img class="img-card-top rounded-end rounded-start" src="./static/teas/taro.png" draggable="false" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title">Taro Fresh Milk</h2>
+              <p class="card-text">
+                The only fresh milk on our favorites list (probably because it contains taro).
+              </p>
+            </div>
+        </div>
+        </div>
+        
+      </div>
+    <div id="footer" class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Mr. Sun Pleasanton</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">
+          <li class="ms-3">
+            <a href="tel:9254259033"><i class="bi bi-telephone h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="mailto:mrsunpleasanton@gmail.com"><i class="bi bi-envelope h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.yelp.com/biz/mr-sun-pleasanton-pleasanton-2"><i class="bi bi-yelp h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.instagram.com/mr.sun_pleasanton"><i class="bi bi-instagram h5 text-muted"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+  <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Order Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a href="https://www.doordash.com/store/mr-sun-tea-pleasanton-pleasanton-25113449" target="_blank"><button type="button" class="btn btn-dark">Doordash</button></a>
+          <a href="https://order.snackpass.co/mrsuntea" target="_blank"><button type="button" class="btn btn-dark">Snackpass</button></a>
+          <a href="tel:9254259033" target="_blank"><button type="button" class="btn btn-dark">Phone-in Order</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
