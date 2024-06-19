@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Wix+Madefor+Display&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#banner {
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Wix Madefor Display, sans-serif;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  cursor: default;
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+.modal-dialog {
+  position: absolute;
+  right: 5px;
+  top: 92px;
+}
+
+a {
+  color: inherit;
+}
+
+#orderModal a button {
+  margin: 10px;
+}
+
+img {
+  user-select: none;
+  display: block;
+}
+
+#btn-home, #btn-menu, #btn-about, #btn-order {
+  margin: 1.5px;
+}
+
+
+#navbar {
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.79);
+  -webkit-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.79);
+  -moz-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.79);
+  padding: 15px;
+  border-radius: 7px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 38px;
+  z-index: 1;
+  background: rgba(255,255,255,0.7);
+}
+
+#main-content {
+  margin: 0 auto;
+  width: 100%;
+  height: fit-content;
+  padding-top: 30px;
+  opacity: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: McLaren, sans-serif;
+}
+
+
+@media screen and (max-width: 1100px) {
+  #heading-title {
+    display: none;
+  }
+}
+
+#logo-main {
+  width: 200px;
+  margin: 0 17px;
+}
+
+#heading-title {
+  margin: auto;
+  font-style: bold;
+}
+
+#heading-title a {
+  text-decoration: none;
+}
+
+#slogan, #menu {
+  border-radius: 7px;
+  width: 95%;
+  margin: 50px auto 50px auto;
+  transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  cursor: pointer;
+}
+
+#slogan:hover, #menu:hover {
+  box-shadow: 0px 10px 10px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0px 10px 10px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 10px 10px -4px rgba(0,0,0,0.4);
+}
+
+.card-text {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.favorites-card img {
+  max-height: 512px;
+  object-fit: contain;
+}
+
+.favorites-card {
+  margin: 30px;
+  max-width: 340px;
+  border: none;
+}
+
+#btn-home:hover {
+  background-color:#b55903;
+  color: white;
+}
+
+#btn-menu:hover {
+  background-color: #2e2ed1;
+  color:white;
+}
+
+#btn-about:hover {
+  background-color: #29a829;
+  color:white;
+}
+
+
+@media screen and (max-width:500px) {
+  #footer footer {
+    flex-direction: column;
+  }
+}
+
+#btn-order {
+  background-color: red;
+  color: white;
+}
+
+#btn-order:hover {
+  border-color: red;
+  background-color: white;
+  color: darkred;
+}
+
+
+#footer {
+  align-self: end;
+  margin-top: auto;
+  max-width: 90%;
+}
+
+.about-desc {
+  margin: 50px auto;
+}
+
+.container, .container-fluid {
+  margin: auto;
+}
+
+.about-card-cont {
+  margin: 5vh 5vw 5vh 5vw;
+  width: 40vw;
+  float: left;
+  display: block;
+  padding: 8px;
+}
+.about-card {
+  width: 80%;
+  float: left;
+}
+.person-desc {
+  
+}
+
+.about-hshot {
+  max-width: 20%;
+  float: left;
+}
+
+
+#contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#contact-info div {
+  margin: auto 50px;
+}
+
+#favorites {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 1;
+  }
+}
