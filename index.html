@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-overlayscrollbars-initialize>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Mr. Sun Tea Pleasanton</title>
+    <link href="./static/favicon.png" rel="icon" type="image/png"/>
+    <link rel="icon" sizes="192x192" href="./static/192x192icon.png" type="image/png"/>
+    <link rel="icon" sizes="128x128" href="./static/128x128icon.png" type="image/png"/>
+    <link rel="apple-touch-icon" href="./static/apple-touch-icon.png" type="image/png"/>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Home | Mr. Sun Pleasanton" />
+    <meta name="description" content="Handcrafted milk teas since 1999." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mr-sun-test.edjiang1234.repl.co" />
+    <meta property="og:title" content="Home | Mr. Sun Pleasanton" />
+    <meta property="og:description" content="Handcrafted milk teas since 1999." />
+    <meta property="og:image" content="https://mr-sun-test.edjiang1234.repl.co/static/logo.jpg" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mr-sun-test.edjiang1234.repl.co" />
+    <meta property="twitter:title" content="Home | Mr. Sun Pleasanton" />
+    <meta property="twitter:description" content="Handcrafted milk teas since 1999." />
+    <meta property="twitter:image" content="https://mr-sun-test.edjiang1234.repl.co/static/logo.jpg" />
+    <!-- Bootstrap for style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- bootstrap for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- overlayscrollbar for better scrollbar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.5/styles/overlayscrollbars.min.css" integrity="sha512-A6YOz/Tv4+wyzq0s1++GYun5D04Lx0vJKJ/qKLhyPNLQfywZGKsktJhObK3SjIURR0Gy/Lw22jXMEoXFY5NUDg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.5/browser/overlayscrollbars.browser.es6.min.js" integrity="sha512-C0rwyfLqz5Asrncj50D9aLJC5SY3QqtRhnkeTpPRLlos8R2seI3fY+z1Dq9zi3Pt/UDau/zXgDfNSMveZGhpjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body data-overlayscrollbars-initialize>
+        <div id="banner"><span style="margin:auto;">Website opening!</span><button type="button" class="btn-close btn-close-white" onclick="this.parentNode.style.display='none';document.querySelector('#navbar').style.top=0"></button></div>
+        <div id="navbar" class="navbar d-flex justify-content-center">
+          <a href="./"><img id="logo-main" src="./static/logo.png" draggable="false"></a><br>
+          <h1 id="heading-title"><a href="./">Mr. Sun Tea Pleasanton</a></h1>
+          <div id="nav-links">
+            <a href="./"><button type="button" class="btn btn-light" id="btn-home" value="active">Home</button></a>
+            <a href="./menu.html"><button type="button" class="btn btn-light" id="btn-menu">Menu</button></a>
+            <a href="./about.html"><button type="button" class="btn btn-light" id="btn-about">About</button></a>
+            <button type="button" class="btn btn-light" id="btn-order" data-bs-toggle="modal" data-bs-target="#orderModal" >Order Now</button>
+          </div>
+        </div>
+
+    <div id="main-content">
+      <div class="container">
+      </div>
+      <div id="slogan" class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="img-fluid rounded-start rounded-end" src="./static/gallery3.jpg" draggable="false">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Our Mission</h2>
+                <p class="card-text">
+                Mr. Sun is a boba tea shop that stemmed from the "Red Sun Tea Group" in Taiwan. Our teas are made fresh daily in-store and our boba is handcrafted from the finest ingredients. Click to learn more about us.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu" class="card">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Our Menu</h2>
+              <p class="card-text">
+                Mr. Sun is one of the first boba tea shops to implement a colorful array of creative and delicious flavors, such Mr. Sun Special, Mr. Sun Mango, Mr. Sun Pineapple/Passionfruit Green Tea, and Mr. Sun Heineken Green Tea, just to name a few. Tap into our menu if you're hungry!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid rounded-end rounded-start" src="./static/gallery5.jpg" draggable="false">
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div id="footer" class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Mr. Sun Pleasanton</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">
+          <li class="ms-3">
+            <a href="tel:9254259033"><i class="bi bi-telephone h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="mailto:mrsunpleasanton@gmail.com"><i class="bi bi-envelope h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.yelp.com/biz/mr-sun-pleasanton-pleasanton-2"><i class="bi bi-yelp h5 text-muted"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.instagram.com/mr.sun_pleasanton"><i class="bi bi-instagram h5 text-muted"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+  <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Order Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a href="https://www.doordash.com/store/mr-sun-tea-pleasanton-pleasanton-25113449" target="_blank"><button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Doordash</button></a>
+          <a href="https://order.snackpass.co/mrsuntea" target="_blank"><button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Snackpass</button></a>
+          <a href="tel:9254259033"><button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Phone-in Order</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let slogan = document.getElementById("slogan")
+    let hungry = document.getElementById("menu")
+    slogan.onclick = () => {
+      window.location.href = "/about.html"
+    }
+    hungry.onclick = () => {
+      window.location.href = "/menu.html"
+    }
+  </script>
+</html>
